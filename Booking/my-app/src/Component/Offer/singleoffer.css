@@ -1,0 +1,52 @@
+
+
+.singleoffer{
+  
+    margin-top: 10px;
+    width:98%;
+
+}
+
+.singleoffer-text{
+    position: relative;
+}
+.singleoffer-image{
+    width: 100%;
+    height: 250px;
+}
+.singleoffer-image  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+
+
+.singleofferContent{
+    position: absolute;
+    top:50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.singleofferContent > h1{
+  font-size: 20px;
+  color: #fff;
+}
+.singleofferContent > p{
+    margin:8px 0px;
+    color: #fff;
+}
+.singleoffer-btn{
+    padding: 8px 10px;
+    outline: none;
+    background-color: rgb(8, 8, 255);
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+  
+    margin-top: 8px;
+    display: inline-block;
+}

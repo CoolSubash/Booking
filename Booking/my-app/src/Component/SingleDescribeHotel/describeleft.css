@@ -1,0 +1,34 @@
+.dleft-price{
+    background-color: rgb(65, 42, 165);
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.dleft-days h1{
+    font-size: 25px;
+}
+.dleft-container{
+    padding: 30px;
+}
+
+.dleft-checkout{
+    background-color: cadetblue;
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-top: 8px;
+}
+.dleft-days-btn{
+    display: flex;
+}
+.btn-inc,.btn-dec{
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.btn-inc{
+    margin-right: 8px;
+}

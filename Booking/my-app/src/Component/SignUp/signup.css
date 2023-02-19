@@ -1,0 +1,42 @@
+.signup{
+    margin-top:1rem;
+    background-color: rgb(13, 13, 53);
+    padding: 80px;
+    color: #fff;
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.signup-heading h2{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.signup-heading p{
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.sign-input{
+    margin-top:18px;
+}
+#subscribe{
+    padding: 14px 20px;
+    width:300px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.sign-input > button{
+    padding: 14px 20px;
+    background-color: rgb(18, 18, 233);
+    outline:none;
+    border: none;
+    margin-left: 8px;
+    border-radius: 4px;
+}

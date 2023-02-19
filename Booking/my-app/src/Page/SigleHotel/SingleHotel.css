@@ -1,0 +1,29 @@
+.singlehotel-describe-container{
+    display: flex;
+   
+
+}
+.singlehotel-describe-left{
+    flex:3;
+  
+  
+}
+.singlehotel-describe-right{
+    flex:1;
+    margin-top: 11rem;
+   
+}
+.singlehotel-description,.singlehotel-amenties{
+    padding: 0px 30px;
+}
+.amenties-list{
+    display: flex;
+    justify-content: space-between;
+}
+.amenties-list-item{
+    display: flex;
+}
+.amenties-list-item p{
+    margin-left: 8px;
+    font-size: 14px;
+}

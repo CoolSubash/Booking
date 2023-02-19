@@ -1,0 +1,111 @@
+.search-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    top:-30px;
+  
+ background-color: #fff;
+    
+}
+.searchcontainerItem1{
+    width: 35%;
+ background-color: #fff;
+    padding: 14px 10px;
+    border: 2px solid #ffb700;
+    outline: 2px solid #ffb700;
+    border-radius: 5px;
+}
+
+/* Date Picker */
+
+.datepickerSearch{
+    position: relative;
+}
+.date{
+    position: absolute;
+    top:55px;
+    left: 0;
+    z-index: 999;
+}
+.calendar{
+    cursor: pointer;
+}
+
+.searchcontainerItem{
+    width: 28%;
+ 
+    padding: 14px 10px;
+    border: 2px solid #ffb700;
+    outline: 2px solid #ffb700;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.headerSearchInput{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background: inherit;
+}
+.headerSearchInput::placeholder{
+    color: black;
+}
+.searchIcon{
+    font-size: 23px;
+    display: inline-block;
+}
+.checkIn{
+    margin-left: 8px;
+}
+.checkout{
+    float: right;
+}
+.personCheck{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.searchplace{
+    background-color: blue;
+    padding: 14px 10px;
+    color: #fff;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid #ffb700;
+    outline: 2px solid #ffb700;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Guest */
+
+.guestNumber{
+    position: absolute;
+    top:55px;
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    padding: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+-moz-box-shadow:0px 10px 15px -3px rgba(0,0,0,0.1);
+z-index: 999;
+
+}
+.guestNumberItems{
+    display: flex;
+    justify-content: space-between;
+    margin-top:16px;
+}
+.guestText{
+    margin: 0rem 9px;
+}
+.guestIncrease,.guestDecrease{
+    width:25px;
+    height: 25px;
+    outline: none;
+    cursor:pointer
+}
+.guestDecrease:disabled{
+    cursor: not-allowed;
+   
+}

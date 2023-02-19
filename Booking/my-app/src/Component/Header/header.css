@@ -1,0 +1,35 @@
+.header{
+    background-color: #003580;
+    color: #fff;
+}
+
+.headerContainer{
+    width:90%;
+    margin: auto;
+}
+
+
+.headerlist{
+    display: flex;
+    width:70%;
+   padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.headerListItem {
+ 
+    padding: 10px 10px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+.headerListItem:hover{
+    background-color: #4a69953d;
+}
+.headerListItem span{
+    display: inline-block;
+    margin-left: 10px;
+}
+.headerListItemactive{
+    border:1px solid #ffffff;
+}

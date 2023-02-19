@@ -1,0 +1,81 @@
+
+
+
+
+.dright-container{
+    padding: 30px;
+}
+.dright-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.dright-type p{
+    background-color: cadetblue;
+    padding: 4px 6px;
+    color:#3e2871;
+    border-radius: 10px;
+    font-size:14px;
+    font-weight: bold;
+}
+.dright-title{
+    margin-top: 10px;
+    width: 500px;
+}
+.dright-reserve{
+    background-color: blue;
+    padding: 8px 20px;
+    color: azure;
+    cursor: pointer;
+}
+.dright-map{
+    margin-top: 10px;
+    color: blue;
+    cursor: pointer;
+}
+.dright-image-big{
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+
+}
+.dright-image-left{
+    flex:1;
+   
+}
+.dright-image-right{
+    flex:2;
+}
+.dright-image-left img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    transition: all 0.4s linear;
+    filter: drop-shadow(1px 1px 2px  rgba(0,0,0,0.4));
+    border-radius: 2px;
+}
+.dright-image-left img:hover{
+    transform: scale(1);
+    overflow: hidden;
+    transition: all 0.4s linear;
+}
+.dright-image-right img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: drop-shadow(1px 1px 2px  rgba(0,0,0,0.4));
+    border-radius: 2px;
+}
+.dright-image-small{
+    display: flex;
+    gap: 4px;
+}
+.dright-image-verysmall{
+    flex:1;
+}
+.dright-image-verysmall img{
+    width: 100%;
+    height: 150px;
+    filter: drop-shadow(1px 1px 2px  rgba(0,0,0,0.4));
+    border-radius: 2px;
+}

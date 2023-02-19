@@ -1,0 +1,27 @@
+.offer{
+    width: 90%;
+    margin: auto;
+}
+.offer-heading > h1{
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.offer-slider{
+    display: flex;
+    gap: 10px;
+}
+
+.react-multiple-carousel__arrow {
+  
+    background: rgb(14, 164, 164)!important;
+
+
+}
+.react-multiple-carousel__arrow--left {
+    left: 0px!important;
+}
+.react-multiple-carousel__arrow--right {
+    right: 0px!important;
+}

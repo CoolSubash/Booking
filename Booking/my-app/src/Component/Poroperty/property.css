@@ -1,0 +1,40 @@
+.property{
+    width:90%;
+    margin: 2rem  auto;
+}
+
+.property-slider{
+    margin-top:10px;
+    overflow: hidden;
+    
+}
+
+/* Single Property */
+
+.singleproperty{
+  
+   
+    margin-left: 8px;
+}
+
+.singleproperty-text{
+    margin-top: 6px;
+}
+.singleproperty-text h1{
+    font-size: 18px;
+}
+.singleproperty-text p{
+    font-size: 14px;
+}
+
+.singleproperty-image {
+   
+    height: 200px;
+    overflow: hidden;
+}
+.singleproperty-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}

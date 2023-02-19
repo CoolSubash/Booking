@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    height:50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.navcontainer{
+    width:90%;
+    margin: auto;
+    color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 0px  0px 0px;
+   
+}
+
+.logo{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.navItems{
+    display: flex;
+
+}
+
+.navButton{
+    padding: 8px 12px;
+    margin:0 8px;
+    background-color: #efeef1;
+    color: #1035c9;
+    cursor: pointer;
+    border-radius:6px
+}

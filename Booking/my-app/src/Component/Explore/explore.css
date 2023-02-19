@@ -1,0 +1,47 @@
+.explore{
+    width:90%;
+    margin: 3rem  auto;
+}
+.explore-heading h1{
+    font-size: 24px;
+}
+.explore-heading p{
+    margin-top: 2px;
+
+}
+
+.explore-slider{
+    margin-top:16px;
+    overflow: hidden;
+    
+}
+
+/* Single explore */
+
+.singleexplore{
+  
+   
+    margin-left: 8px;
+}
+
+.singleexplore-text{
+    margin-top: 6px;
+}
+.singleexplore-text h1{
+    font-size: 18px;
+}
+.singleexplore-text p{
+    font-size: 14px;
+}
+
+.singleexplore-image {
+   
+    height: 150px;
+    overflow: hidden;
+}
+.singleexplore-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
